@@ -17,9 +17,12 @@ body {
     left:0;
     right:0;
 }
-.footer ul { /*lists indide of footer div*/
+.footer table { /*lists indide of footer div*/
     list-style-type: none;
     margin:1em;
     padding:1em;
+}
+.footer td {
+    text-align: center;
 }
 

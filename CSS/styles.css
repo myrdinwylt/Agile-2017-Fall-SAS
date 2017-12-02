@@ -2,9 +2,8 @@
 body {
     font-family: verdana, arial, sans-serif;
     background-color: #aaa;
-    background-image:url(background.jpg);
+    background-image:url(http://cdn.mysitemyway.com/etc-mysitemyway/webtreats/assets/posts/873/full/tileable-metal-textures-4.jpg);
     background-repeat:repeat;
-    cursor: url(images/cursor.png), progress;
 }
 
 
@@ -18,7 +17,6 @@ body {
     width: 70%;
     top:0;
     position: relative;
-    cursor: url(images/cursor.png), progress;
 }
 .header {/* styles for the header(part of the content box.*/
     font-size: 14pt;

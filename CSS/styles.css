@@ -4,6 +4,7 @@ body {
     background-color: #aaa;
     background-image:url(background.jpg);
     background-repeat:repeat;
+    cursor: url(images/cursor.png), progress;
 }
 
 
@@ -17,6 +18,7 @@ body {
     width: 70%;
     top:0;
     position: relative;
+    cursor: url(images/cursor.png), progress;
 }
 .header {/* styles for the header(part of the content box.*/
     font-size: 14pt;
@@ -69,6 +71,7 @@ body {
 }
 .footer td {
     text-align: center;
+    align-content: center;
 }
 .text{
  margin: 1em;

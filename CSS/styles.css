@@ -2,16 +2,17 @@
 body {
     font-family: verdana, arial, sans-serif;
     background-color: #FFFBA5;
+}
 /*footer stuff goes here*/
 .footer { /*Footer div*/
     position: fixed;
-    background-color: #ecffa5;
+    background-color:#ecffa5;
     width:100%;
     height:35%;
     bottom:0;
     left:0;
     right:0;
-}
+    }
 .footer table { /*lists indide of footer div*/
     list-style-type: none;
     margin:1em;
@@ -31,7 +32,7 @@ body {
     top:0;
     position: fixed;
 }
-    .header {/* styles for the header(part of the content box.*/
+.header {/* styles for the header(part of the content box.*/
     font-size: 14pt;
     text-align: center;
 }
@@ -40,4 +41,18 @@ body {
     height:40%;
     padding:1em;
 }
-
+.navbar {/*navbar is part of the content box.*/
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: .5em;
+} 
+.navbar li{
+   display:inline; 
+}
+.navbar a {
+    display: inline;
+    padding: 0.5em;
+    background-color: #dddddd;
+}

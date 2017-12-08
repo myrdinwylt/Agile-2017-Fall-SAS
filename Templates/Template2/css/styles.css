@@ -27,6 +27,7 @@ logo*/
   top: 0;
   left: 0;
   right: 0;
+  height: 24%;
   background-color: green;
   /*outline: $accent-colour dashed 
   outline-width: 0.1em;  Add this if you want to, Its not totally needed and depends on your prefrences.*/
@@ -45,7 +46,7 @@ logo*/
   .top .navbar {
     position: fixed;
     width: 40%;
-    height: 25%;
+    height: 24%;
     top: 0;
     right: 0;
     float: right;
@@ -53,7 +54,7 @@ logo*/
     text-align: center;
     padding: em;
     text-decoration: none;
-    font-size: 24pt;
+    font-size: 48pt;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     margin: 0;
     font-style: none;

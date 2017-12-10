@@ -1,0 +1,19 @@
+{
+  "name": "hacksite",
+  "version": "1.0.0",
+  "description": "Hackathon site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SAS UMS Hack",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.9.2",
+    "redis": "^2.8.0",
+    "stylus": "^0.54.5"
+  }
+}

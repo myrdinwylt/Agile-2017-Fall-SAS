@@ -4,27 +4,17 @@ var express = require('express')
   , template = require('jade').compileFile(__dirname + '/source/templates/homepage.jade')
   , redis = require("redis")
   , client = redis.createClient()
-
+  var y=0;
+  var n=0;
   var server=require('http').Server(app);
-  var i=0
+  var i=0;
 
 app.use(logger('dev'))
 app.use(express.static(__dirname + '/static'))
 
-app.get('/', function (req, res, next) {
-  try {
-    var html = template({ title: 'Home' })
-    res.send(html)
-  } catch (e) {
-    next(e)
-  }
-})
-
 server.listen(80); 
 
 app.post('poll',function(req,res){
-    var y=0;
-    var n=0;
     var D = new Date();
     var v=process.env.PORT || 3000
     if(v.indexOf("put")>-1  ){

@@ -22,7 +22,7 @@ app.get('/', function (req, res, next) {
 
 server.listen(80); 
 
-app.post('',function(req,res){
+app.post('poll',function(req,res){
     var y=0;
     var n=0;
     var D = new Date();

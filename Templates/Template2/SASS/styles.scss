@@ -1,0 +1,72 @@
+/*
+Woolf Brebner, December 3rd 2017 in VSCODE, Master Branch
+
+Styles.scss is for AGILE-2017-FALL-SAS Template 2 and written by Woolf Brebner, Ethan Mentzer, Cole Cristini,
+Cormac Gill and Desmond Saunders. This style sheet is intend to be turned from SASS/styles.scss to CSS/styles.css and styles.css
+will be linked to index.html 
+
+Github page is currently https://github.com/myrdinwylt/Agile-2017-Fall-SAS and this file is located in AGILE-2017-FALL-SAS/Templates/Template2/SASS/styles.scss
+
+*/
+/*Note: Color palette is Base: #FFFFFF, Accents: #828282, Text:#828282, Misc: #000000*/
+/*Colour palette vars*/
+$base-colour: #FFFFFF;
+$accent-colour: #828282;
+$text-colour: #828282;
+$misc-colour: #000000;
+/*Text vars*/
+$text-default: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+/*body css and css concerning things other than div tags*/
+.body{
+    background-color: $base-colour;
+}
+/*Header stuff-Header is box at the top that holds an h1 with the companys name or an vector image that has the company name in it and
+when shrunk or displayed on phones the text lowers size until it can no longer be held in the div and will then be changed into a small company
+logo*/
+.top{
+    position: fixed;
+    align-content: center;
+    text-align: center;
+    background-color: $base-colour;
+    color: $text-colour;
+    top:0;
+    left:0;
+    right:0;
+    height: 24%;
+    background-color: green;
+    /*outline: $accent-colour dashed 
+    outline-width: 0.1em;  Add this if you want to, Its not totally needed and depends on your prefrences.*/ 
+    .header{
+        font-family: $text-default;
+        text-align: left;
+        font-size: 24pt;
+        position: fixed;
+        width: 40%;
+        top:0;
+        left:0;
+        margin:0.5em;
+        padding:0em;
+         background-color: red;
+    }
+    /* Add a black background color to the top navigation */
+    .navbar {
+        position: fixed;
+        width: 40%;
+        height: 24%;
+        top:0;
+        right:0;
+        float: right;
+        color: $text-colour;
+        text-align: center;
+        padding: em;
+        text-decoration: none;
+        font-size: 48pt;
+        font-family: $text-default;
+        margin: 0;
+        font-style: none;
+        margin: 0.5em;
+        background-color: blue;
+    }
+
+}
+

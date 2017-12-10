@@ -1,0 +1,48 @@
+body {
+    font-family: verdana, arial, sans-serif;
+    background-color: #aaa;
+    background-image:url(http://cdn.mysitemyway.com/etc-mysitemyway/webtreats/assets/posts/873/full/tileable-metal-textures-4.jpg);
+    background-repeat:repeat;
+}
+
+.navbar {/*navbar is part of the content box.*/
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} 
+.navbar li{
+   display:inline; 
+   float: left;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em 1.2em;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: #111;
+}
+
+.footer { /*Footer div*/
+    position: relative;
+    background-color:gray;
+    height: 25%;
+    bottom:0;
+    width:100%;
+    left:0%;
+    right:0%;
+    }
+ .footer table { /*lists indide of footer div*/
+    list-style-type: none;
+    margin:1em;
+    padding:1em;
+}
+.footer td {
+    text-align: center;
+    align-content: center;
